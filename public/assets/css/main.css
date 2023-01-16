@@ -1,0 +1,40 @@
+.nav-link.active a {
+    color: white;
+}
+.nav-link.active::before {
+    content: " ";
+    position: absolute;
+    width: 2px;
+    height: 100%;
+    background: white;
+    left: 0;
+}
+
+.custom-shape-divider-top {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 500px;
+}
+
+#navbar {
+    transition: 0.4s;
+}
+
+.fixed-top {
+    background-color: #7c3aedec;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.395);
+}
+
+.fa-crown {
+    text-shadow: 0 0 10px #fff;
+}
